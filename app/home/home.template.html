@@ -1,0 +1,28 @@
+<main class="wrapper">
+    <div id="link" class="progress-link center">
+        <a (mouseover)='Over()' (mouseout)='Out()' href="">Check progress</a>
+    </div>
+    <div id="popover-m" class="popover center">
+        <div class="title">
+            <p>Your Progress</p>
+        </div>
+        <div class="content">
+            <div class="progress-content">
+                <div class="bar-container">
+                    <span class="reached">Reached:</span>
+                    <div class="bar">
+                        <div id="progress" class="progress"></div>
+                        <span id="indicatorArrow"class="indicator-arrow">^</span>
+                        <div id="indicator" class="indicator">${{current}}</div>
+                    </div>
+                    <div id="target" class="target">
+                        <p> Target ${{total}} </p>
+                    </div>
+                </div>
+                <div id="info" class="info">
+                    <i class="info-icon"></i> You need ${{needed}} more to reach your target.
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

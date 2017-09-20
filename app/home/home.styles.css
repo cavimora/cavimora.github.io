@@ -1,0 +1,128 @@
+#popover-m
+{
+  background-color: #e8e8e8;
+  border: 1px solid #030303;
+  border-radius: 5px;
+  height: 205px;
+  max-width: 800px;
+  top: 25%; 
+}
+
+#popover-m .title
+{
+  background-color: #030303;
+  border: 1px solid #030303;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+#popover-m .title p 
+{
+  margin: 2px;
+  font-weight: bold; 
+}
+
+#popover-m .content 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #030303;
+  border-radius: 5px;
+  width: 474px;
+  height: 144px;
+  margin: 13px 24px 0; 
+}
+#popover-m .bar-container 
+{
+  margin-left: 40px; 
+}
+#popover-m .progress-content 
+{
+  margin-top: 14px; 
+}
+
+#popover-m .progress-content .bar 
+{
+  margin-top: 5%;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  width: 50%;
+  height: 12px;
+  background-color: #ece7e7;
+  -webkit-box-shadow: inset 0 1px 5px grey;
+  -moz-box-shadow: inset 0 1px 5px grey;
+  box-shadow: inset 0 1px 5px grey; 
+}
+#popover-m .progress-content .bar .progress 
+{
+  margin-bottom: 0;
+  height: 100%;
+  background-color: #5aaf54;
+  -webkit-box-shadow: 0 1px 5px grey;
+  -moz-box-shadow: 0 1px 5px grey;
+  box-shadow: 0 1px 5px grey; 
+}
+#popover-m .progress-content .bar .indicator 
+{
+  font-weight: bold;
+  position: absolute;
+  top: 20px; 
+}
+#popover-m .progress-content .bar .indicator-arrow 
+{
+  position: absolute;
+  top: 10px;
+  font-weight: bold; 
+}
+
+#popover-m .progress-content .target 
+{
+  margin-top: 0;
+  border: 1px solid #030303;
+  width: 60px;
+  height: 52px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #898989;
+  display: inline-block; 
+}
+#popover-m .progress-content .target p 
+{
+  text-align: center;
+}
+#popover-m .reached 
+{
+  color: #707070;
+  font-weight: bold; 
+}
+#popover-m .info 
+{
+  font-weight: bold; 
+  text-align: center;
+  margin-top: 30px;
+  color: #707070; 
+}
+#popover-m .info-icon 
+{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: #5a88a6;
+  border-radius: 50%;
+  -webkit-box-shadow: inset -6px -5px 2px #36586f;
+  -moz-box-shadow: inset -6px -5px 2px #36586f;
+  box-shadow: inset -6px -5px 2px #36586f; 
+}
+#popover-m .info-icon::after 
+{
+  content: 'i';
+  color: #ffffff;
+  position: relative;
+  top: 1px;
+  font-size: 15px;
+  margin: 0 auto;
+  font-style: italic; 
+}
+
+           
